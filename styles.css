@@ -1,0 +1,93 @@
+/*
+darkbackground color(hero and footer) #1F2937 
+hero main text
+48px extra-bold #F9FAF8
+
+hero secondary text, header link text
+18px #E5E7EB
+
+Header logo text
+24px #F9FAF8
+*/
+.box1{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo{
+    color: #f9faf8;
+    font-size: 24px;
+    flex: 2;
+    justify-content: center;
+    
+}
+.header-link-box{
+    color: #f9faf8;
+    font-size: 24px;
+    
+    display: block;
+    
+    
+}
+.header-links{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+
+.content-box1{
+    display: flex;
+    flex-direction: row;
+
+}
+.hero-box{
+    margin-left: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 25%;
+    
+}
+.hero{
+    color: #f9faf8;
+    font-weight: extra-bold;
+    font-size: 48px;
+
+}
+.hero-subtext{
+  color: #e5e7eb;
+  font-size: 18px; 
+}
+.empty{
+    margin:50px;
+    min-width: 100px;
+    min-height: 100px;
+    flex:2;
+    background-color: orange;
+}
+.sign-up{
+    border-radius: 5px;
+    border: none;
+    background-color: #3882f6;
+    color:whitesmoke;
+    padding: 5px;
+}
+/*
+Button color, call to action background color
+#3882F6
+information header text
+34px extra bold 31f2937
+*/
+
+/*
+quote section background color 
+#E5E7EB
+quote text
+36px light italic #1F2937
+*/
